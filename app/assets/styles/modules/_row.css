@@ -1,0 +1,60 @@
+.row {
+
+	@mixin clearfix;
+
+			
+
+			&__t-padding{
+				padding-top:80px;
+			}
+		
+
+			&__med-3 {
+				max-width: 25%;
+				float: left;
+				padding-left: 65px;
+				background-color: ; 
+				
+			}
+
+
+			&__med-4 {
+				width: 33.33%;
+				float: left;
+			 
+			}
+
+			&__med-6 {
+				width: 50%;
+				float: left;
+
+			}
+
+
+			&__space > div {
+				padding:0 66px;
+			}
+
+			&__space-small > div {
+				padding:0 35px;
+			}
+		
+		/*begin equel hight rules*/
+
+
+			&__equel-hight-at-med{
+				display: flex;
+
+				& > div {
+					float: none;
+					display: flex;
+				}
+			}
+
+	
+
+
+
+			
+}
+	

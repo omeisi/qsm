@@ -1,0 +1,57 @@
+.site-header {
+	
+	z-index: 2;
+	background-color: rgba(#333333, 0.3);
+	width: 100%;
+	position: fixed;
+	transition: all 0.8s ease-out;	
+	
+
+
+	&__dark {
+		background-color: rgba(#333333, 0.95);
+		transition: all 0.8s ease-out;	
+	}
+
+	&__btn-container {
+		
+		float: right;
+
+		a {
+			margin:0 1rem;
+		}
+	}
+	
+	img {
+		width: 220px;
+		height: 100px;
+	}
+
+	&__logo {
+		top:0;
+		left:0;
+		position: absolute;
+		background-color: #333333;
+		padding: 1rem;
+		transition: all 0.5s ease-out;
+
+		
+
+		.site-header__dark  & {
+			top:-24px;
+			position: absolute;
+			transition: all 0.5s ease-out;
+			padding: 0;	
+			transform: scale(0.57 , 0.53);
+
+
+		}
+
+	}
+}
+
+
+
+
+
+

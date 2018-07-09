@@ -1,0 +1,49 @@
+.generic-content-container {
+	p {
+		font-weight: 300;
+		line-height: 1.65;
+		margin:0;
+		
+	}
+
+	ul li {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 1rem 0;
+	}
+
+
+	p a {
+		font-weight: 600;
+		text-decoration: none;
+		font-size: 1.2rem
+	}
+
+&__white {
+		color: white;
+
+		p {
+		font-weight: 300;
+		line-height: 1.65;
+		margin: 1.8rem 0;
+		
+	}
+
+	ul li {
+		font-weight: 300;
+		line-height: 1.2;
+		margin: 1.8rem 0;
+	}
+
+
+	p a {
+		font-weight: 600;
+	}
+
+}
+
+
+	
+
+	
+}

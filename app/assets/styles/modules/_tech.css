@@ -1,0 +1,120 @@
+.tech {
+	position: relative;
+
+	&__title {
+		z-index: 1;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top:-40px;
+		color: white;
+	}
+
+	&__slider {
+		width: 100%;
+		height: 60rem;
+		position: relative;
+	}
+
+	&__container {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+	}
+
+	&__container-active {
+		display: block;
+	}
+
+
+	&__img {
+		position: absolute;
+		height: 100%;
+		width: 100%;	
+		
+		}
+
+	&__content-left {
+		max-width: 400px;
+		color: white;
+		opacity: 0.8;
+		position: absolute;
+		top: 100px;
+		left: 62px;	
+	}
+	
+
+	
+
+	
+
+	&__content-right {
+		max-width: 400px;
+		color: white;
+		opacity: 0.8;
+		position: absolute;
+		top: 100px;
+		right: 5rem;
+		
+		
+	}
+
+	&__headline {
+		font-weight: 700;
+		font-size: 3.5rem;
+		color:$mainOrange;
+
+
+	}
+	
+	&__p {
+		font-size: 1.25rem;
+	}
+
+
+}
+
+	/* arrows for the tech slider*/
+
+
+
+	.left-arrow {
+			position: absolute;
+			left: 30px;
+			font-size: 2rem;
+			color:white;
+			z-index: 4;
+			cursor: pointer;
+			transform: scaleY(3);
+			transition: all 0.5s ease-out;
+
+			&:hover {
+				color: $mainOrange;
+				cursor: pointer;
+				transition: all 0.2s ease-out;
+				font-size: 2.5rem;
+			}
+
+		}
+
+		.right-arrow {
+			position: absolute;
+			right: 30px;
+			font-size: 2rem;
+			color:white;
+			z-index: 4;
+			cursor: pointer;
+			transform: scaleY(3);
+			transition: all 0.5s ease-out;
+
+
+			&:hover {
+				color: $mainOrange;
+				cursor: pointer;
+				transition: all 0.2s ease-out;
+				font-size: 2.5rem;
+			}
+
+		}
+

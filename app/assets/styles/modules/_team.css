@@ -1,0 +1,44 @@
+.team {
+		
+		margin-bottom: 40px;
+		
+
+		&:hover {
+		    transform: scale(1.1,1.1);
+		    transition: all .3s ease-out 0s;
+		}
+
+	&__img {
+		border: 10px white solid;
+		width: 100%;
+		height: 14rem;
+		border-radius: 130px;
+		box-shadow: 3px 3px 0 rgba(254, 76, 2, 0.6);
+		
+		
+
+	}
+
+	&__headline {
+		text-align: center;
+		font-size: 1.7rem;
+		margin-bottom: 0 ;
+		color:white;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+	}
+
+	&__info {
+		text-align: center;
+		font-size: 1rem;
+		color: white;
+	}
+
+	&__linkedin {
+		width: 2rem;
+		height: 2rem;
+		margin-left: 50%;
+		margin-bottom: 10px;
+		transform: translateX(-50%);
+
+	}
+}

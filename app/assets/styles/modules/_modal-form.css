@@ -1,0 +1,94 @@
+.modal-form {
+	width: 500px;
+	
+
+	&__first-and-last {
+	  
+	    width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid rgba($mainOrange, 0.3);
+		border-radius: 20px;
+		box-sizing: border-box;
+		font-size: 1rem;
+	}
+	&__email {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid rgba($mainOrange, 0.3);
+		border-radius: 20px;
+		box-sizing: border-box;
+		font-size: 1rem;
+	}
+
+	&__messege {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid rgba($mainOrange, 0.3);
+		border-radius: 20px;
+		box-sizing: border-box;
+		height: 100px;
+		font-size: 1rem;
+
+
+	}
+
+	&__submit {
+		
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid $mainOrange;
+		border-radius: 20px;
+		box-sizing: border-box;
+		background-color: rgba($mainOrange, 0.9);
+		font-size: 1.5rem;
+		text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.3)
+		
+		}
+
+	&__close {
+		position: absolute;
+		font-size: 2rem;
+		right:20px;
+		top: 20px;
+		transform: scaleX(1.2);
+		transform-origin: 100% 0;
+		cursor: pointer;
+
+
+		&:hover {
+			color: $mainOrange;
+			text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5)
+			
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

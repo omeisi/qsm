@@ -1,0 +1,38 @@
+.primary-nav {
+
+	&__pull-right {
+		float: right
+	}
+
+	ul {
+		margin:0;
+		padding:0;
+		@mixin clearfix;
+
+	}
+
+	li {
+		list-style: none;
+		float: left;
+		padding-top: 15px;
+		
+	}
+
+
+	a {
+		color: #FFF;
+		text-decoration: none;
+		font-weight: 300;
+		padding: 0 0.8rem;
+		
+		&.is-current-link {
+			color:$mainOrange;
+		}
+		
+	}
+
+	a:hover {
+		box-shadow: 0px 5px 50px 10px rgba($mainOrange,.5);
+		transition: all 1s ease-out;
+	}
+}

@@ -1,0 +1,39 @@
+.service {
+			
+		background-color: rgba(255,255,255,0.8);
+		padding: 0 1.8125rem 1px 1.8125rem;
+
+			&__icon {
+			position: relative;
+			width: 130px;
+			height: 130px;
+			border-radius: 75px;
+			margin: 0 auto -40px auto;
+			top:-65px;
+			border: 6px solid rgba(0,0,0,0.8);
+			overflow: hidden;
+			box-shadow: 0px 3px 0 rgba(254, 76, 2, 0.6);
+
+			
+			}
+
+			&__headline {
+				
+				text-align: center;
+				font-size: 1.5rem;
+
+			}
+
+			&__img {
+				width: 80px;
+				height: 80px;
+				margin:18px 50%;
+				transform: translateX(-50%);
+
+
+			}
+
+			
+}
+
+

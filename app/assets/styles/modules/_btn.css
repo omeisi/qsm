@@ -1,0 +1,55 @@
+.btn {
+	border: 2px solid $mainOrange; 
+	color:white;
+	text-decoration: none;
+	padding: 0.8rem 1rem;
+	display: inline-block;
+	font-weight: 300;
+	font-size: 0.8rem;
+	
+	&:hover {
+		background-color: rgba($mainOrange, 0.5);
+		transition: all 1s ease-out;
+	}
+	
+		@mixin atSmall {
+		  font-size: 1.1rem;
+		  padding: 0.9rem 2rem;
+		}
+
+		@mixin atMedium{
+			 font-size: 1.1rem;
+		  padding: 1rem 1.2rem;
+			
+		}
+
+		@mixin atLarge{
+			font-weight: 300;
+			font-size: 1rem;
+			
+		}
+
+
+	&__large {
+		padding: 0.5rem 1rem;
+
+		
+
+		
+
+		@mixin atLarge{
+			font-weight: 400;
+			font-size: 2rem;
+			padding: 2rem;
+			background-color: rgba(0, 0, 0, 0.6);
+
+			&:hover {
+				background-color: rgba(254, 76, 2, 0.5);
+			}
+		}
+	}
+
+	&__last {
+		margin:0 5rem;
+	}
+}
